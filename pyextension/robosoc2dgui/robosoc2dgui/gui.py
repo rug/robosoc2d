@@ -3,8 +3,8 @@
 # robosoc2d GUI
 ############################################################################
 # to install (be sure to have robosoc2d installed previously and to have a 
-# p_ython version with Tkinter built-in):
-#  p_ython3 setup.p_y install
+# python version with Tkinter built-in):
+#  python3 setup.py install
 #
 # to uninstall:
 #  pip uninstall robosoc2dgui
