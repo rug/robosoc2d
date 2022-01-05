@@ -272,10 +272,6 @@ There is also another package to visualize the game in realtime. It's the packag
 That package makes possibile to show the game inside a Jupyter notebook, both in local and remote servers, also in Kaggle notebook and Google Colab. It is based on Matplotlib and it does not use Tkinter, so it will work also on those Python versions that are natively missing Tkinter. The package contains its own documentation and examples.
 There is also an experimental package named robosoc2dplotty whose aim is again to show the game inside Jupyter notebooks, using Plotly istead of Matplotlib, but unfortunately some Jupyter versions create some different behavior for some Plotly functionality in a way that may make robosoc2dplotty not working. For this reason we recommend the usage of robosoc2dplot (the Matplotlib based version) instead of robosoc2dplotty (the Plotly based version).
 
-### Automatic Jupyter notebook generation
-
-If you downloaded the source code of robosoc2d, in the folder "./pyextension/create_notebook" there is the file "create_notebook.py" that, when run (having the current directory set to its own folder), will create a notebook file named "robosoc2d.ipynb" that permits to use robosoc2d inside Jupyter notebooks even without installing robosoc2d with pip: this ipynb file contains all the C++ and Python files needed to compile and install robosoc2d and its side packages. As of the time of writing, the resulting notebook is tested to work on current Google Colab and Kaggle Notebook.
-
 
 DOCUMENTATION
 -------------
